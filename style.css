@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 1em;
+}
+
+main section article {
+  width: 45%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#steps ul {font-size: 0.838em;}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+footer {
+  margin: auto;
+  width: 90%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer h3{padding-top: 2.5%;}
+
+footer p {
+  width: 90%;
+  margin-left: 2%;
+}
+
+footer section {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+footer section article {width: 30%;}
+
+footer section article img {width: 90%;}
+
+ul {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+ul li {padding-bottom: 0.25em;}
+
+footer code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: lightgray;
+  padding: 0.05em;
+  border: thin solid black;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
